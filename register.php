@@ -10,7 +10,7 @@
     <form method="POST" action="">
         <input type="text" name="username" placeholder="Username">
         <input type="password" name="passwort" placeholder="Passwort">
-        <input type="password" name="passwort" placeholder="Repeat Passwort">
+        <input type="password" name="passwort" placeholder="Passwort wiederholen">
         <button type="submit">Anmelden</button>
 
         <div>
