@@ -27,9 +27,10 @@ if(isset($_POST['search'])) {
                 echo "<br>";
         }
 	}
-	exit();	
 }
 $conn->close(); //Schließt die Verbindung zur Datenbank
+
+exit(); //Terminierung des PHP Skripts
 ?>
 
 
