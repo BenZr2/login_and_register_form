@@ -32,8 +32,8 @@
                 }
                 #Hier wird der "SQL-Insert Befehl ausgeführt, wenn die Daten erfolgreich in die Datenbank übertragen wurden, kommt eine Meldung, die dies bestätigt.
             if ($sql_insert->execute() === TRUE) {
-                echo "Erfolgreich registriert" . "<br>";
-		sleep(1);
+                sleep(1);
+                header("Location: index.php");
                 return;
                 #Bei einem Fehler der Datenübertragung kommt eine Fehlermeldung
             } else {
